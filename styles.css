@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 90%; 
+  width: 100%; 
   margin: auto;
   background-color: #0a0a23;
 }
@@ -88,11 +88,16 @@ input:focus {
   }
 }
 @media (max-width: 480px) {
+  body {
+    width: 75%; 
+    margin: 10px auto;
+  }
   h1 {
     font-size: 16px; 
     margin-bottom: 10px; 
   }
   .container {
+    height:auto;
     border-radius: 16px; 
     padding: 8px;
   }
@@ -110,5 +115,12 @@ input:focus {
   }
   input {
     padding: 8px; 
+  }
+  #result {
+    font-size: 14px; 
+    color: black;
+  }
+  .box {
+    background-color: lightgray; 
   }
 }
