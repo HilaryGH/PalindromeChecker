@@ -88,20 +88,18 @@ input:focus {
   }
 }
 @media (max-width: 480px) {
-  body {
-    width: 75%; 
-    margin: 10px auto;
-  }
   h1 {
     font-size: 16px; 
     margin-bottom: 10px; 
   }
   .container {
+    width:90%;
     height:auto;
     border-radius: 16px; 
     padding: 8px;
   }
   .box {
+    width:90%;
     font-size: 18px; 
     margin-top: 10px;
   }
