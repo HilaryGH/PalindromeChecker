@@ -37,12 +37,21 @@ h1 {
 button {
   width: 100px;
   padding: 10px;
-  margin: 20px 0;
+  margin: 20px auto; 
   border-radius: 6px;
   background-color: hsl(0 0% 45%);
   color: white;
   border: none;
+  display: block; 
 }
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  display: block;
+  margin: 10px auto; 
+}
+
 button:hover {
   background-color: hsl(0 0% 75%);
 }
